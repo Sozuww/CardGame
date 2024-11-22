@@ -19,8 +19,6 @@ public class Deck {
         shuffle();
     }
 
-
-
     public boolean isEmpty()
     {
         return cardsLeft == 0;

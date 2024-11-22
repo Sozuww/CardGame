@@ -42,10 +42,6 @@ public class Player {
         hand.add(a);
     }
 
-    public void startGame()
-    {
-
-    }
 
     public String toString()
     {
