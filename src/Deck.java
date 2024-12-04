@@ -42,7 +42,7 @@ public class Deck {
 
     public void shuffle()
     {
-        for (int i = c.size(); i > 0; i--)
+        for (int i = c.size() - 1; i > 0; i--)
         {
             int rand = (int) (Math.random() * (i+1));
             Card temp = c.get(i);
